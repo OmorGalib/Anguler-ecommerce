@@ -1,0 +1,36 @@
+.sub-container {
+    max-width: 1326px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin: auto;
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+    
+        img {
+            max-width: 100%;
+            max-height: 641px;
+        }
+    }
+}
+
+@media (max-width: 799px) {
+    .sub-container{
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+         }
+    }
+}
+@media (max-width: 599px) {
+    .sub-container{
+        padding: 0;
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+         }
+    }
+}

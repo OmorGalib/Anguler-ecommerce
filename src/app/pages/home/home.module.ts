@@ -1,0 +1,26 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HomeRoutingModule } from './home-routing.module';
+import { HomeComponent } from './home.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HeroSectionComponent } from './hero-section/hero-section.component';
+import { CardSectionComponent } from './card-section/card-section.component';
+import { HeroWallSectionComponent } from './hero-wall-section/hero-wall-section.component';
+import { LocationsComponent } from './locations/locations.component';
+
+
+@NgModule({
+  declarations: [
+    HomeComponent,
+    NavbarComponent,
+    HeroSectionComponent,
+    CardSectionComponent,
+    HeroWallSectionComponent,
+    LocationsComponent,
+  ],
+  imports: [
+    CommonModule,
+    HomeRoutingModule
+  ]
+})
+export class HomeModule { }

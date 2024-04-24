@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding-left: 45px;
+    padding-right: 45px;
+    .navlogo {
+        font-size: x-large;
+        font-weight: bold;
+        color: rgb(5, 5, 53);
+    }
+    .navlinks {
+        display: flex;
+        gap: 20px;
+
+        a {
+            color: rgb(5, 5, 53);
+            font-weight: lighter;
+        }
+    }
+    .navicons {
+        display: flex;
+        gap: 10px;
+    }
+}
+@media (max-width: 799px) {
+    .navlinks {
+        display: none !important;
+    }
+}
+@media (max-width: 599px) {
+    .navlinks {
+        display: none !important;
+    }
+}

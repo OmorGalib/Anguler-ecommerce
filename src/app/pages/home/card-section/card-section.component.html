@@ -1,0 +1,36 @@
+<div class="container">
+    <div class="sub-container">
+        <div class="card-section">
+            <div class="cards-header">
+                <h2>Top picks for you</h2>
+                <p>find a bright ideal to suit your taste with out great selection of suspension, floor and table lights.</p>
+            </div>
+            <div class="cards">   
+                <ng-container *ngFor="let product of products">
+                    <div class="card">
+                        <img [src]="product?.image" alt="">
+                        <p class="pType">{{product?.type}}</p>
+                        <h2>{{product?.name}}</h2>
+                        <div class="card-info">
+                            <div class="leftInfo">
+                                <div class="price">
+                                    <p class="pNew">{{product?.nPrice}}</p>
+                                    <p class="pOld">{{product?.oPrice}}</p>
+                                </div>
+                                <div class="ratings">
+                                    <ng-container *ngFor="let i of [1,2,3,4,5]">
+                                        <img  class="star-icon" [src]="product?.rating" alt="">
+                                    </ng-container>
+                                </div>
+                            </div>
+                            <button class="store-btn">
+                                <img [src]="product?.store" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </ng-container>  
+            </div>
+            <button class="cards-button">View All Products</button>
+        </div>
+    </div>
+</div>
