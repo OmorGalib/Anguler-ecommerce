@@ -1,10 +1,9 @@
-nav {
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding: 0px 45px;
     .navlogo {
         font-size: x-large;
         font-weight: bold;
@@ -21,16 +20,25 @@ nav {
     }
     .navicons {
         display: flex;
+        align-items: center;
         gap: 10px;
+        .nBar{
+            display: none;
+        }
     }
 }
-@media (max-width: 799px) {
-    .navlinks {
-        display: none !important;
-    }
-}
-@media (max-width: 599px) {
-    .navlinks {
-        display: none !important;
+@media(max-width: 799px)  {
+    nav{
+        padding: 0px 15px;
+        .navlinks {
+            display: none;
+        }
+        .navicons {
+            .nBar{
+                display:block;
+                background-color: black;
+                border-radius: 3px;
+            }
+        }
     }
 }
