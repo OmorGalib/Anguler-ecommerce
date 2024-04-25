@@ -31,3 +31,11 @@ export const locations_db:any []=[
     address: "5the Avenue, E 28th St, Khalid bin Street, UAE"
     },
 ]
+export const images_db:any []=[
+    {  image: '../../../assets/images/brand/png/image1.png'},
+    {  image: '../../../assets/images/brand/png/image2.png'},
+    {  image: '../../../assets/images/brand/png/image3.png'},
+    {  image: '../../../assets/images/brand/png/image4.png'},
+    {  image: '../../../assets/images/brand/png/image5.png'},
+    {  image: '../../../assets/images/brand/png/image6.png'},
+]

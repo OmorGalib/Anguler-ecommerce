@@ -1,0 +1,36 @@
+.sub-container{
+    .image-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        img{
+            max-height: 140px;
+            max-width: 140px;
+        }
+    }
+}
+@media (max-width: 799px) {
+    .sub-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        .image-container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+@media (max-width: 599px) {
+    .sub-container{
+        .image-container{
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+    }
+}

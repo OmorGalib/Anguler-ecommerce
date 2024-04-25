@@ -7,6 +7,7 @@ import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { CardSectionComponent } from './card-section/card-section.component';
 import { HeroWallSectionComponent } from './hero-wall-section/hero-wall-section.component';
 import { LocationsComponent } from './locations/locations.component';
+import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { LocationsComponent } from './locations/locations.component';
     CardSectionComponent,
     HeroWallSectionComponent,
     LocationsComponent,
+    ImageGalleryComponent,
   ],
   imports: [
     CommonModule,
