@@ -33,9 +33,9 @@ export const locations_db:any []=[
 ]
 export const images_db:any []=[
     {  image: '../../../assets/images/brand/png/image1.png'},
-    {  image: '../../../assets/images/brand/png/im1.jpg'},
+    {  image: '../../../assets/images/brand/png/image2.png'},
     {  image: '../../../assets/images/brand/png/image3.png'},
-    {  image: '../../../assets/images/brand/png/im2.jpg'},
+    {  image: '../../../assets/images/brand/png/image4.png'},
     {  image: '../../../assets/images/brand/png/image5.png'},
     {  image: '../../../assets/images/brand/png/image6.png'},
 ]
