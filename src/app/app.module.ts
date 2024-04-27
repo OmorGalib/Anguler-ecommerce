@@ -10,13 +10,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './materials/materials.module';
 import { SwiperModule } from 'swiper/angular';
 import { DigitOnlyModule } from '@uiowa/digit-only';
-import { AboutUsComponent } from './pages/about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PagesComponent,
-    AboutUsComponent
+    PagesComponent
   ],
   imports: [
     BrowserModule,
