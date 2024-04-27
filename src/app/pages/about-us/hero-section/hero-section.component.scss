@@ -1,0 +1,20 @@
+.hero-container{
+    background-color: rgba(9, 23, 95, 1);
+    padding: 50px 40px;
+    color: white;
+    .hero-header{
+        h1{
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 38px;
+            text-wrap: wrap;;
+        }
+    }
+    .hero-text{
+       font-family: Montserrat;
+       font-weight:500;
+       font-size:small;
+       text-wrap: wrap;
+       
+    }
+}
