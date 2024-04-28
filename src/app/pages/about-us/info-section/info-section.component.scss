@@ -1,0 +1,63 @@
+.info-container{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    h2{
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size:24px;
+        color: rgba(43, 48, 58, 1);
+    }
+    .info-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+      
+    }
+    .info-card{
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        .img-btn{
+            display: flex;
+            height: 80px;
+            width: 80px;
+            border: 1px solid rgba(9, 23, 95, 1);
+            border-radius: 100px;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            img{
+                height: 30px;
+                width: 30px;
+            }
+        }
+        h4{
+            font-size: Manrope;
+            font-weight: 600;
+            font-size:16px;
+            color: rgba(32, 32, 32, 1);
+        }
+        p{
+            font-size: Manrope;
+            font-weight: 400;
+            font-size:16px;
+            color: rgba(32, 32, 32, 1);
+        }
+        .info-btn{
+            button{
+                padding: 3px 15px;
+                font-size: Poppins;
+                font-weight: 500;
+                font-size:12px;
+                align-items: center;
+                color: rgba(0, 0, 0, 1);
+                border-radius: 5px;
+                border: 1px solid rgba(9, 23, 95, 1);
+                background-color: white;
+            }
+        }
+    }
+}

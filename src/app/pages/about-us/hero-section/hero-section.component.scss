@@ -1,20 +1,36 @@
 .hero-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     background-color: rgba(9, 23, 95, 1);
-    padding: 50px 40px;
+    padding: 50px 45px;
     color: white;
     .hero-header{
         h1{
             font-family: Montserrat;
             font-weight: 700;
-            font-size: 38px;
-            text-wrap: wrap;;
+            font-size:34px;
         }
     }
     .hero-text{
-       font-family: Montserrat;
-       font-weight:500;
-       font-size:small;
-       text-wrap: wrap;
-       
+        p, ul li{
+            font-family: Montserrat;
+            font-weight:500;
+            font-size:small;
+            text-wrap: wrap;
+        }
+        ul{
+            padding-left: 20px;
+        }
+    }
+    .hero-btn{
+        button{
+            background-color: rgba(6, 147, 227, 1);
+            border-radius: 5px;
+            text-align: center;
+            padding: 10px 20px;
+            border: none;
+            color: white;
+        }
     }
 }
