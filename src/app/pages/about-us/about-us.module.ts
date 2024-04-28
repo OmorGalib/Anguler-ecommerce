@@ -8,24 +8,18 @@ import { QuoteSectionComponent } from './quote-section/quote-section.component';
 import { QuerySectionComponent } from './query-section/query-section.component';
 import { InfoSectionComponent } from './info-section/info-section.component';
 import { AboutUsComponent } from './about-us.component';
-import { FooterComponent } from 'src/app/shared/components/footer/footer.component';
-import { NavbarComponent } from 'src/app/shared/components/navbar/navbar.component';
-
+import { FooterModule } from 'src/app/shared/components/footer/footer.module';
+import { NavbarModule } from 'src/app/shared/components/navbar/navbar.module';
 
 @NgModule({
   declarations: [
     AboutUsComponent,
-    NavbarComponent,
     HeroSectionComponent,
     SytemSectionComponent,
     QuoteSectionComponent,
     QuerySectionComponent,
     InfoSectionComponent,
-    FooterComponent
   ],
-  imports: [
-    CommonModule,
-    AboutUsRoutingModule
-  ]
+  imports: [CommonModule, AboutUsRoutingModule, FooterModule, NavbarModule],
 })
-export class AboutUsModule { }
+export class AboutUsModule {}
