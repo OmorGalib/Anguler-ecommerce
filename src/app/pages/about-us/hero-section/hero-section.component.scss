@@ -34,3 +34,31 @@
         }
     }
 }
+@media (max-width: 799px) {
+    .hero-container{
+        padding: 40px 30px;
+        .hero-header{
+            h1{
+                text-wrap: wrap;
+            }
+        }
+    }
+}
+@media (max-width: 599px) {
+    .hero-container{
+        padding: 30px 25px;
+        .hero-header{
+            h1{
+                font-size:26px;
+            }
+        }
+        .hero-text{
+            p, ul li{
+                font-size:smaller;
+            }
+            ul{
+                padding-left: 20px;
+            }
+        }
+    }
+}

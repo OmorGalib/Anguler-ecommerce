@@ -7,32 +7,7 @@
             </div>
             <div class="cards">   
                 <ng-container *ngFor="let product of products">
-                    <div class="card">
-                        <div class="card-img">
-                            <img [src]="product?.image" alt="">
-                        </div>
-                        <div class="card-footer">
-                            <p class="pType">{{product?.type}}</p>
-                            <h2>{{product?.name}}</h2>
-                            <div class="card-info">
-                                <div class="leftInfo">
-                                    <div class="price">
-                                        <p class="pNew">{{product?.nPrice}}</p>
-                                        <p class="pOld">{{product?.oPrice}}</p>
-                                    </div>
-                                    <div class="ratings">
-                                        <ng-container *ngFor="let i of [1,2,3,4,5]">
-                                            <img  class="star-icon" [src]="product?.rating" alt="">
-                                        </ng-container>
-                                    </div>
-                                </div>
-                                <button class="store-btn">
-                                    <img [src]="product?.store" alt="">
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
+                    <app-card [cardData]="product"></app-card>
                 </ng-container>  
             </div>
             <button class="cards-button">View All Products</button>

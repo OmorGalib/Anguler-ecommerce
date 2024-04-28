@@ -9,6 +9,7 @@ import { HeroWallSectionComponent } from './hero-wall-section/hero-wall-section.
 import { LocationsComponent } from './locations/locations.component';
 import { ImageGalleryComponent } from './image-gallery/image-gallery.component';
 import { FooterComponent } from 'src/app/shared/components/footer/footer.component';
+import { CardModule } from 'src/app/shared/components/card/card.module';
 
 
 
@@ -26,7 +27,8 @@ import { FooterComponent } from 'src/app/shared/components/footer/footer.compone
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    CardModule
   ]
 })
 export class HomeModule { }

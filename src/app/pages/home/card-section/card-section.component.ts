@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { products_db } from 'src/app/core/header/db/products.db';
 
 @Component({
