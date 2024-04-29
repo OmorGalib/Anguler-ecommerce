@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./query-section.component.scss']
 })
 export class QuerySectionComponent {
-
+  
 }

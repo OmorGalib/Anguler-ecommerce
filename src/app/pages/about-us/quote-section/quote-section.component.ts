@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { quote_db } from 'src/app/core/header/db/aboutUs.db';
 
 @Component({
   selector: 'app-quote-section',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./quote-section.component.scss']
 })
 export class QuoteSectionComponent {
-
+  quotetions: any []= quote_db;
 }
