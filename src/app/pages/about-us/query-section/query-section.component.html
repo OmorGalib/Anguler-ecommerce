@@ -1,1 +1,19 @@
-<p>query-section works!</p>
+
+<div class="container">
+  <div class="query-container">
+    <h2>Frequently Ask Questions</h2>
+    <div class="questions">
+      <div *ngFor="let data of queries; let i = index">
+        <div>
+          <p>{{ data?.question }}</p>
+          <!-- <button (click)="handleToggle(i)"><img src="../../../../assets/images/brand/png/d-arrow.png" alt=""></button> -->
+          <button (click)="handleToggle(i)"><img [src]="data?.downarrow" alt=""></button>
+        </div>
+        <div>
+          <p *ngIf="isShow[i] == true">{{ data?.answer }}</p>
+        </div>
+      </div>
+    </div>
+    <button class="query-btn">Find More FAQs</button>
+  </div>
+</div>
