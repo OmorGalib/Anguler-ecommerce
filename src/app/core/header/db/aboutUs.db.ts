@@ -56,14 +56,14 @@ export const quote_db: any[] = [
 ];
 export const query_db: any[] = [
   {
-    question: 'one',
+    question: 'WAS ERWARTET MICH IM ERSTGESPRÄCH?',
     answer:
       'In einem offenen Austausch ermitteln wir gemeinsam, wie Sie von BOTfriends profitieren können. Wir betrachten unverbindlich Ihren Anwendungsfall und geben Ihnen eine erste Empfehlung ab, ob unsere Lösung und eine Zusammenarbeit für beide Seiten sinnvoll ist.',
     uparrow: '../../../assets/images/brand/png/u-arrow.png',
     downarrow: '../../../assets/images/brand/png/d-arrow.png',
   },
   {
-    question: 'two',
+    question: 'WAS ERWARTET MICH IM ERSTGESPRÄCH?',
     answer:
       'In einem offenen Austausch ermitteln wir gemeinsam, wie Sie von BOTfriends profitieren können. Wir betrachten unverbindlich Ihren Anwendungsfall und geben Ihnen eine erste Empfehlung ab, ob unsere Lösung und eine Zusammenarbeit für beide Seiten sinnvoll ist.',
     uparrow: '../../../assets/images/brand/png/u-arrow.png',
