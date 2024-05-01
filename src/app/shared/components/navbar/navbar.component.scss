@@ -1,43 +1,88 @@
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    margin: 0px 45px;
-    .navlogo {
-        font-size: x-large;
-        font-weight: bold;
-        color: rgb(5, 5, 53);
-    }
-    .navlinks {
+.container{
+    .sub-container{
         display: flex;
-        gap: 20px;
-
-        a {
-            color: rgb(5, 5, 53);
-            font-weight: lighter;
-        }
-    }
-    .navicons {
-        display: flex;
+        justify-content: space-between;
         align-items: center;
-        gap: 10px;
-        .nBar{
-            display: none;
+        height: 85px;
+        padding: 24px 57px;
+        h2{
+            font-size:31px;
+            font-weight:900;
+            color: rgba(9, 23, 95, 1);
+            font-family: Roboto;
+        }
+        .navlinks {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .an{
+                color: rgba(9, 23, 95, 1);
+                font-weight: 500;
+                font-family: roboto;
+                font-size: 16px;
+            }
+            a{
+                color: rgba(43, 48, 58, 1);
+                font-weight: 500;
+                font-family: roboto;
+                font-size: 16px;
+            }
+        }
+        .nib{
+            display: flex;
+            gap: 20px;
+            .navicons {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .nBar{
+                display: none;
+            }
         }
     }
 }
 @media(max-width: 799px)  {
-    nav{
-        margin: 0px 15px;
-        .navlinks {
-            display: none;
+    .container{
+        .sub-container{
+            padding: 16px 24px;
+            height: 80px;
+            .navlinks {
+                display: none;
+            }
+            .nib{
+                .nBar{
+                    display:block;
+                    background-color: rgba(43, 48, 58, 1);
+                    border-radius: 4px;
+                    padding: 8px;
+                    height: 48px;
+                    width: 48px;
+                }
+            }
         }
-        .navicons {
-            .nBar{
-                display:block;
-                background-color: black;
-                border-radius: 3px;
+    }
+}
+@media(max-width: 599px)  {
+    .container{
+        .sub-container{
+            padding: 12px;
+            height: 72px;
+            .navlinks {
+                display: none;
+            }
+            .nib{
+                .navicons {
+                    display: none; 
+                 }
+                 .nBar{
+                     display:block;
+                     background-color: rgba(43, 48, 58, 1);
+                     border-radius: 4px;
+                     padding: 8px;
+                     height: 48px;
+                     width: 48px;
+                 }
             }
         }
     }

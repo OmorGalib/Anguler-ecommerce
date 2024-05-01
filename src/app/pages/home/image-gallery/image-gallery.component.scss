@@ -1,12 +1,12 @@
 .sub-container{
+    margin: 0px 45px 60px;
     .image-container{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 25px;
         img{
-            max-height: 140px;
-            max-width: 140px;
+            max-height: 160px;
+            max-width: 160px;
         }
     }
 }
@@ -15,7 +15,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: auto;
         .image-container{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
