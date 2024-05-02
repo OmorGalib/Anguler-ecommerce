@@ -5,7 +5,10 @@
       <div *ngFor="let data of queries; let i = index">
         <div class="question">
           <p>{{ data?.question }}</p>
-          <button (click)="handleToggle(i)"><img [src]="data?.downarrow" alt=""></button>
+          <button (click)="handleToggle(i)">
+            <img *ngIf="isDownArrowVisible[i]" [src]="data?.downarrow" alt="Down Arrow">
+            <img *ngIf="!isDownArrowVisible[i]" [src]="data?.uparrow" alt="Up Arrow">
+          </button>
         </div>
         <div class="answer">
           <p *ngIf="isShow[i] == true">{{ data?.answer }}</p>
