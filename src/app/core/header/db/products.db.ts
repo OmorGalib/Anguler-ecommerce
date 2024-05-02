@@ -5,13 +5,13 @@ export const products_db:any[]=[
     rating: '../../../assets/images/brand/png/star.png',
     store: '../../../assets/images/brand/png/store.png'
     },
-    { image: '../../../assets/images/brand/png/Frame 1000008717.png', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
-    { image: '../../../assets/images/brand/png/Frame 1000008718.png',type:'Run, Dress', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
-    { image: '../../../assets/images/brand/png/Frame 1000008719.png',type:'Run, Dress', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
-    { image: '../../../assets/images/brand/png/Frame 1000008720.png',type:'Run, Dress', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
-    { image: '../../../assets/images/brand/png/Frame 1000008721.png',type:'Run, Dress', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
-    { image: '../../../assets/images/brand/png/Frame 1000008722.png',type:'Run, Dress', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
-    { image: '../../../assets/images/brand/png/Frame 1000008723.png',type:'Run, Dress', name: 'Bollard Lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008717.png', name: 'wall lamp', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008718.png',discount:'-20%',type:'Run, Dress', name: 'Diesel V2 Hoodie', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008719.png',discount:'-20%',type:'Run, Dress', name: 'Diesel V2 Hoodie', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008720.png',type:'Run, Dress', name: 'Grey Winter Hoodie', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008721.png',discount:'-20%',type:'Run, Dress', name: 'Round neck T-shirt', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008722.png',type:'Run, Dress', name: 'Diesel V1 Hoodie', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
+    { image: '../../../assets/images/brand/png/Frame 1000008723.png',type:'Run, Dress', name: 'Diesel V1 Hoodie', nPrice: '$7.00', oPrice: '$12.00', rating: '../../../assets/images/brand/png/star.png', store: '../../../assets/images/brand/png/store.png' },
 ]
 export const locations_db:any []=[
     {

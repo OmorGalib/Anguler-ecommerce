@@ -1,6 +1,9 @@
 <div class="card">
     <div class="card-img">
         <img [src]="cardData?.image" alt="">
+        <div class="dis-count" *ngIf="cardData?.discount">
+            <h4>{{cardData?.discount}}</h4>
+        </div>
     </div>
     <div class="card-footer">
         <p class="pType">{{cardData?.type}}</p>

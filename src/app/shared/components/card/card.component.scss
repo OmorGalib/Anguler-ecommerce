@@ -8,10 +8,26 @@
     max-height: 491px;
     .card-img{
         height: 321px;
+        position: relative;
         img{
             width: 100%;
             height: 100%;
             object-fit: cover;
+        }
+        .dis-count{
+            position: absolute;
+            text-align: center;
+            background-color: rgba(79, 191, 89, 1);
+            padding: 3px 6px;
+            text-align: center;
+            right: 0;
+            top: 12px;
+            h4{
+                color: rgba(255, 255, 255, 1);
+                font-family: roboto;
+                font-weight: 600;
+                font-size: 13px;
+            }
         }
     }
     .card-footer{
@@ -34,6 +50,7 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            margin-top: 10px;
             .leftInfo{
                 display: flex;
                 flex-direction: column;
