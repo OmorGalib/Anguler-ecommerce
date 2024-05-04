@@ -21,6 +21,13 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     InfoSectionComponent,
     FormContactSectionComponent,
   ],
-  imports: [CommonModule, AboutUsRoutingModule, FooterModule, NavbarModule,ReactiveFormsModule,FormsModule],
+  imports: [
+    CommonModule,
+    AboutUsRoutingModule,
+    FooterModule,
+    NavbarModule,
+    ReactiveFormsModule,
+    FormsModule,
+  ],
 })
 export class AboutUsModule {}
