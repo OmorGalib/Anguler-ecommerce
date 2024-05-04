@@ -10,6 +10,7 @@ import { AboutUsComponent } from './about-us.component';
 import { FooterModule } from 'src/app/shared/components/footer/footer.module';
 import { NavbarModule } from 'src/app/shared/components/navbar/navbar.module';
 import { FormContactSectionComponent } from './form-contact-section/form-contact-section.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,6 @@ import { FormContactSectionComponent } from './form-contact-section/form-contact
     InfoSectionComponent,
     FormContactSectionComponent,
   ],
-  imports: [CommonModule, AboutUsRoutingModule, FooterModule, NavbarModule],
+  imports: [CommonModule, AboutUsRoutingModule, FooterModule, NavbarModule,ReactiveFormsModule,FormsModule],
 })
 export class AboutUsModule {}

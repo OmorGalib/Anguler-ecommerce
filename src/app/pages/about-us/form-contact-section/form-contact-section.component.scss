@@ -75,89 +75,91 @@
                 }
             }
         }
-        .form-info{
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            p{
-                font-family: poppins;
-                font-size: 12px;
-                font-weight: 600;
-                color: rgba(0, 0, 0, 1);
-            }
-            input{
-                margin-top: 5px;
-                width: 100%;
-                border: none;
-                outline: none;
-                border-bottom: 1px solid #ccc;
-                padding: 5px;
-            }
-            .f-l-name, .email-number{
-                display: grid;
-                grid-template-columns: repeat(2,1fr);
-                gap: 10px;
-            }
-            .select-check{
-                .p-select{
-                    font-family: Poppins;
-                    font-size: 14px;
-                    font-weight: 700;
+        form{
+            .form-info{
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                p{
+                    font-family: poppins;
+                    font-size: 12px;
+                    font-weight: 600;
                     color: rgba(0, 0, 0, 1);
                 }
-                .checkbox{
-                    display: flex;
-                    align-items: center;
-                    gap: 30px;
-                    .inp-lbl{
+                input{
+                    margin-top: 5px;
+                    width: 100%;
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #ccc;
+                    padding: 5px;
+                }
+                .f-l-name, .email-number{
+                    display: grid;
+                    grid-template-columns: repeat(2,1fr);
+                    gap: 10px;
+                }
+                .select-check{
+                    .p-select{
+                        font-family: Poppins;
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: rgba(0, 0, 0, 1);
+                    }
+                    .checkbox{
                         display: flex;
                         align-items: center;
-                        gap: 10px;
-                        input[type="checkbox"] {
-                            appearance: none; 
-                            border-radius: 50%;
-                            width: 15px; 
-                            height: 15px;
-                            background-color: rgba(224, 224, 224, 1);
-                            position: relative;
-                            cursor: pointer;
-                        }
-                        
-                        input[type="checkbox"]:checked::after {
-                            content: '\2714';
-                            font-size: 15px;
-                            color: #ffffff;
-                            position: absolute;
-                            top: 50%; 
-                            left: 50%;
-                            transform: translate(-50%, -50%);
-                        }
-                        input[type="checkbox"]:checked {
-                            background-color: #000000;
-                        }
-                        label {
-                            margin-top: 8px;
-                            cursor: pointer;
-                            font-family: Poppins;
-                            font-size: 12px;
-                            font-weight: 400;
-                            color: rgba(0, 0, 0, 1);
+                        gap: 30px;
+                        .inp-lbl{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            input[type="checkbox"] {
+                                appearance: none; 
+                                border-radius: 50%;
+                                width: 15px; 
+                                height: 15px;
+                                background-color: rgba(224, 224, 224, 1);
+                                position: relative;
+                                cursor: pointer;
+                            }
+                            
+                            input[type="checkbox"]:checked::after {
+                                content: '\2714';
+                                font-size: 15px;
+                                color: #ffffff;
+                                position: absolute;
+                                top: 50%; 
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                            input[type="checkbox"]:checked {
+                                background-color: #000000;
+                            }
+                            label {
+                                margin-top: 8px;
+                                cursor: pointer;
+                                font-family: Poppins;
+                                font-size: 12px;
+                                font-weight: 400;
+                                color: rgba(0, 0, 0, 1);
+                            }
                         }
                     }
                 }
-            }
-            .form-btn{
-                button{
-                    background-color: rgba(9, 23, 95, 1);
-                    padding: 15px 48px;
-                    border-radius: 5px;
-                    font-family: Poppins;
-                    font-size: 16px;
-                    font-weight: 500;
-                    color: rgba(255, 255, 255, 1);
-                    text-align: center;
-                    }
+                .form-btn{
+                    button{
+                        background-color: rgba(9, 23, 95, 1);
+                        padding: 15px 48px;
+                        border-radius: 5px;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: rgba(255, 255, 255, 1);
+                        text-align: center;
+                        }
+                }
             }
         }
     }
