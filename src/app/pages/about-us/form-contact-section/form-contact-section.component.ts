@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-form-contact-section',
@@ -17,16 +17,20 @@ export class FormContactSectionComponent {
 
   initForm() {
     this.formData = this.fb.group({
-      fname: null,
-      lname: null,
-      email: null,
-      phone: null,
-      message: null,
+      fname: [null, Validators.required],
+      lname: [null, Validators.required],
+      email: [null, [Validators.required, Validators.email]],
+      phone: [null, [Validators.required, Validators.minLength(6)]],
+      message: [null, Validators.required],
       subject: null,
     });
   }
   onSubmit() {
-    console.log('formData:', this.formData.value);
-    this.formData.reset();
+    if (this.formData.valid) {
+      console.log('formData:', this.formData.value);
+      this.formData.reset();
+    } else {
+      console.log('not valid');
+    }
   }
 }
