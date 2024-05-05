@@ -20,8 +20,7 @@ export class LoginFormComponent {
       fname: null,
       lname: null,
       email: null,
-      phone: null,
-      message: null,
+      password: null,
     });
   }
   onSubmit() {
