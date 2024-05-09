@@ -4,10 +4,14 @@
             <div class="cards-header">
                 <h2>Top Picks For You</h2>
                 <p>find a bright ideal to suit your taste with out great selection of suspension, floor and table lights.</p>
+                <div class="pass-data">
+                    <!-- product name : {{passedName}} -->
+                    Total Price : {{totalPrice}}
+                </div>
             </div>
             <div class="cards">   
                 <ng-container *ngFor="let product of products">
-                    <app-card [cardData]="product"></app-card>
+                    <app-card (passEventData)="onClickPassed($event)" [cardData]="product"></app-card>
                 </ng-container>  
             </div>
             <button class="cards-button">View All Products</button>

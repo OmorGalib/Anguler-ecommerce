@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,4 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
   @Input() cardData: any = null;
+  @Output() passEventData = new EventEmitter();
+
+  onClickStore(){
+    console.log('Stored: ',this.cardData);
+    this.passEventData.emit(this.cardData)
+  }
 }
